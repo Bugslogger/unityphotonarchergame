@@ -27,18 +27,18 @@ public class PlayersController : MonoBehaviour
 	/// Init
 	/// </summary>
 	void Awake () {
-		icp = new Vector2 (0, 0);
-		infoPanel.SetActive (false);
-		shootDirectionVector = new Vector3(0,0,0);
-		playerCurrentHealth = playerHealth;
-		isPlayerDead = false;
+		// icp = new Vector2 (0, 0);
+		// infoPanel.SetActive (false);
+		// shootDirectionVector = new Vector3(0,0,0);
+		// playerCurrentHealth = playerHealth;
+		// isPlayerDead = false;
 
-		gc = GameObject.FindGameObjectWithTag ("GameController");
-		cam = GameObject.FindGameObjectWithTag ("MainCamera");
+		// // gc = GameObject.FindGameObjectWithTag ("GameController");
+		// // cam = GameObject.FindGameObjectWithTag ("MainCamera");
 
-		canCreateHelper = true;
-		helperShowTimer = 0;
-		helperDelayIsDone = false;
+		// canCreateHelper = true;
+		// helperShowTimer = 0;
+		// helperDelayIsDone = false;
 	}
     
     // Start is called before the first frame update
